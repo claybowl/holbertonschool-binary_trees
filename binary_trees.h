@@ -57,5 +57,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 int is_bst_helper(const binary_tree_t *tree, int min, int max);
 int binary_tree_is_bst(const binary_tree_t *tree);
 int is_perfect_recursive(const binary_tree_t *tree, int depth, int level);
+bst_t *bst_insert(bst_t **tree, int value);
 
 #endif
